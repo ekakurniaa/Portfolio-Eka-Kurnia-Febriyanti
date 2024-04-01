@@ -1,0 +1,55 @@
+* {
+  font-family: "Poppins";
+}
+
+/* Code: Utilities */
+.size-1-5rem {
+  width: 1.5rem;
+  aspect-ratio: 1/1;
+}
+.size-2-5rem {
+  width: 2.5rem;
+  aspect-ratio: 1/1;
+}
+.size-3rem {
+  width: 3rem;
+  aspect-ratio: 1/1;
+}
+
+.top-60 {
+  top: 80%;
+}
+
+/* Code: Components */
+.navbar-nav .nav-link.active {
+  --bs-navbar-active-color: var(--bs-primary);
+  font-weight: 500;
+}
+.navbar-nav .nav-link {
+  --bs-nav-link-color: var(--bs-dark);
+}
+.navbar-nav .nav-link:hover {
+  color: var(--bs-primary);
+}
+
+.btn {
+  --bs-btn-padding-x: 1rem;
+}
+.btn.btn-lg {
+  --bs-btn-padding-x: 1.5rem;
+}
+
+@media screen and (min-width: 576px) {
+  .position-sm-absolute {
+    position: absolute;
+  }
+
+  .size-sm-3rem {
+    width: 3rem;
+    aspect-ratio: 1/1;
+  }
+
+  .w-sm-18rem {
+    width: 18rem;
+  }
+}
